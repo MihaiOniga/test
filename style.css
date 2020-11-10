@@ -1,0 +1,308 @@
+:root{
+    --container: white;
+    --ctcolor: #d67ca0;
+    --txtcolorblue:#9a9ed3;
+    --bgcolorblue:#f8e0dc;
+    --bgcolorpink:#ffe0da;
+    --txtcolorpink:#f3b5ea;
+    --bluebgw:#e6efff;
+}
+*{
+    padding: 0;
+    margin:0;
+    background-color: lightgrey
+}
+.primaryContainer{
+    top:50px;
+    position: relative;
+    width: 500px;
+    height:80vh;
+    background-color:var(--container);
+    left:50%;
+    transform: translate(-50%);
+    display: inline-flex;
+    border-radius: 30px 30px;
+}
+
+/*11111111111111111111111111111111111111*/
+/*11111111111111111111111111111111111111*/
+/*11111111111111111111111111111111111111*/
+/*11111111111111111111111111111111111111*/
+.line1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    top:30px;
+}
+
+
+.logoCodeTap{
+    position: relative;
+    width: 40px;
+    height: 40px;
+   /* background-color: grey;*/
+    left:15px;
+    top:10px;
+    border-radius: 50%;
+    background:url(codeLogo.png);
+    background-size: cover;
+
+    
+}
+.time{
+    position: relative;
+    background-color: var(--container);
+    color:rgb(175, 170, 170);
+    float: right;
+    left:30px;
+    top:15px;
+    font-size: 13px;
+}
+strong{
+    position: relative;
+    background-color: var(--container);
+    display: inline;
+    top:10px;
+    left:30px;
+    font-size: 20px;
+    color:var(--ctcolor);
+
+}
+
+strong1{
+    position: relative;
+    background-color: var(--container);
+    display: inline;
+    top:10px;
+    left:30px;
+    font-size: 20px;
+    
+}
+.comment1{
+    position: absolute;
+    top:65px;
+    left: 70px;
+    background-color: var(--container);
+}
+
+/*222222222222222222222222222222222222*/
+/*222222222222222222222222222222222222*/
+/*222222222222222222222222222222222222*/
+/*222222222222222222222222222222222222*/
+
+
+.line2{
+    top:90px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment2{
+    position: absolute;
+    top:125px;
+    left: 70px;
+    background-color:#feedd1;
+    right: 15px;
+    
+}
+.bluebg{
+    background-color: var(--bgcolorblue);
+    color: var(--txtcolorblue);
+   
+}
+.pinkbg{
+    background-color: var(--bgcolorpink);
+    color:var(--txtcolorpink);
+}
+
+/*3333333333333333333333333*/
+/*3333333333333333333333333*/
+/*3333333333333333333333333*/
+/*3333333333333333333333333*/
+
+
+.line3{
+    top:180px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment3{
+    position: absolute;
+    top:215px;
+    left: 70px;
+    background-color:white;
+    right: 15px;
+}
+.bluebgw{
+    background-color: var(--bluebgw);
+    color: var(--txtcolorblue);
+}
+
+/*44444444444444444444444*/
+/*44444444444444444444444*/
+/*44444444444444444444444*/
+/*44444444444444444444444*/
+
+.line4{
+    top:250px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment4{
+    position: absolute;
+    top:285px;
+    left: 70px;
+    background-color:white;
+    right: 15px;
+}
+
+/*555555555555555555555555*/
+/*555555555555555555555555*/
+/*555555555555555555555555*/
+
+.line5{
+    top:340px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment5{
+    position: absolute;
+    top:375px;
+    left: 70px;
+    background-color:white;
+    right: 15px;
+}
+.logoDiscord{
+    position: relative;
+    width: 40px;
+    height: 40px;
+   /* background-color: grey;*/
+    left:15px;
+    top:10px;
+    border-radius: 50%;
+    background:url(discordLogo.png);
+    background-size: cover;
+}
+/*666666666666666666666*/
+/*666666666666666666666*/
+/*666666666666666666666*/
+.line6{
+    top:410px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment6{
+    position: absolute;
+    top:445px;
+    left: 70px;
+    background-color:white;
+    right: 15px;
+}
+/*7777777777777777*/
+/*7777777777777777*/
+/*7777777777777777*/
+.line7{
+    top:500px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment7{
+    position: absolute;
+    top:535px;
+    left: 70px;
+    background-color:white;
+    right: 15px;
+}
+
+/*8888888888888888888888888*/
+/*8888888888888888888888888*/
+/*8888888888888888888888888*/
+
+.line8{
+    top:600px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--container);
+    display: inline-flex;
+    
+}
+
+.comment8{
+    position: absolute;
+    top:615px;
+    left: 110px;
+    background-color:#ecedef;
+    padding:10px 10px 10px 10px;
+    border-radius: 20px;
+    right: 15px;
+    opacity: 0.7;
+}
+.logoCamera{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    left:15px;
+    top:20px;
+    border-radius: 50%;
+    background:url(logoCamera1.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+.logoGallery{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(122, 14, 14);
+    left:30px;
+    top:20px;
+    border-radius: 50%;
+    background:url(galleryLogo.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.logoSmiley{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(122, 14, 14);
+    top:620px;
+    border-radius: 50%;
+    background:url(smileyLogo.png);
+    background-size: cover;
+    left:450px;
+    opacity: 0.7;
+}
